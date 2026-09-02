@@ -1,42 +1,68 @@
-# First Measure — Portfolio Starter
+# First Measure — Neutral Client Portfolio Starter
 
-Private reusable starter template for building client professional portfolios.
+A private, reusable, dependency-free starter for producing professional client portfolios.
 
 ## Purpose
 
-This repository is the reusable production baseline for First Measure client portfolio projects.
+This repository is the approved First Measure baseline for client portfolio sites. It is intentionally neutral: it provides a Modern Studio visual system and adaptable portfolio structure without client content, First Measure sales messaging, pricing, or external service links.
 
-## Core files
+Create a separate repository for every client. Client repositories are independent productions; this repository remains the private master baseline.
 
-- `index.html` — starter structure and reusable content areas
-- `styles.css` — approved visual system and responsive behavior
-- `script.js` — mobile navigation and reveal behavior
-- `assets/` — optional reusable, non-client-specific assets
+## Structure
 
-## Production workflow
+- `index.html` — one-page neutral portfolio structure with clearly marked placeholders
+- `styles.css` — Modern Studio design tokens, layout, components, and responsive rules
+- `script.js` — accessible mobile navigation behavior
+- `assets/images/` — client images and visual assets
+- `assets/icons/` — client icons and marks
+- `assets/documents/` — client-facing documents, such as a résumé or CV PDF
 
-1. Start from this approved starter.
-2. Create a new, separate client repository.
-3. Keep the client repository private during development.
-4. Build from the approved Portfolio Direction.
-5. Replace placeholder content with client-specific content.
-6. Review on desktop and mobile.
-7. Complete client review and approval.
-8. Deploy the finished public portfolio through the selected hosting workflow.
+The `.gitkeep` files only preserve the empty asset folders in Git. Remove them once real assets are added to a client repository.
+
+## Included portfolio areas
+
+The starter supports these adaptable sections:
+
+1. Professional identity and headline
+2. Introduction / about
+3. Selected work, accomplishments, or case studies
+4. Professional experience
+5. Skills / expertise
+6. Credentials, education, and evidence
+7. Optional testimonial
+8. Professional approach
+9. Contact call to action and footer
+
+Sections may be added, removed, reordered, or adapted when the approved portfolio direction supports it. Preserve the responsive behavior and visual hierarchy unless an intentional, tested client-specific change is required.
+
+## Client production workflow
+
+1. Start from this approved repository.
+2. Create a new, separate private repository for the client.
+3. Replace every bracketed placeholder in `index.html`.
+4. Update the HTML language, title, description, contact routes, and résumé/CV destination.
+5. Add only client-approved public assets to the client repository.
+6. Review navigation, links, desktop layout, mobile layout, keyboard interaction, and content accuracy.
+7. Obtain client approval before deployment.
+8. Deploy the client repository through the selected hosting workflow.
+
+## Accessibility and responsive baseline
+
+- Desktop navigation converts to a keyboard-operable mobile menu at 680px.
+- The mobile menu updates its accessible name, moves focus to the first navigation link when opened, closes after navigation or outside interaction, and supports Escape.
+- In-page sections account for the fixed header when scrolled to.
+- Visible keyboard focus styles and reduced-motion support are included.
+- Layouts collapse progressively at 1000px, 680px, and 400px.
 
 ## Rules
 
-- Do not store client résumés, intake exports, private documents, or confidential materials in this starter.
-- Do not store client-specific content in the starter repository.
-- Preserve responsive behavior unless a client-specific change is intentional and tested.
-- Do not remove structural sections without an explicit production decision.
+- Do not store client résumés, intake exports, private documents, or confidential materials in this master repository.
+- Do not store client-specific content in this master repository.
 - Do not publish this repository as a client site.
+- Do not retain placeholder email addresses, links, metadata, or copy in a launched client site.
 - Treat `main` as the approved starter baseline.
+- Keep the template framework-free and dependency-free unless a deliberate production decision changes that standard.
 
-## Client-specific work
+## Design direction
 
-Create a separate repository for each client. The starter is the source baseline; client repositories should be independent from this repository.
-
-## Design
-
-The starter is based on the approved Modern Studio direction and is intended to remain the default visual baseline unless a new design direction is explicitly approved.
+The starter preserves the approved Modern Studio direction: editorial serif display typography, warm paper surfaces, deep navy contrast sections, terracotta accents, fine rules, structured cards, and a calm, professional responsive layout.
