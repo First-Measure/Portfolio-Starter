@@ -66,3 +66,8 @@ Sections may be added, removed, reordered, or adapted when the approved portfoli
 ## Design direction
 
 The starter preserves the approved Modern Studio direction: editorial serif display typography, warm paper surfaces, deep navy contrast sections, terracotta accents, fine rules, structured cards, and a calm, professional responsive layout.
+
+
+## Design independence
+
+Every client production must follow the high-priority [design-independence implementation rules](portfolio-starter-IMPLEMENTATION-RULES.md). Treat the starter as a technical foundation, not a visual template, and complete the required originality check before approval or deployment.  
