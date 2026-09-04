@@ -1,12 +1,23 @@
 # First Measure — Neutral Client Portfolio Starter
 
-A private, reusable, dependency-free starter for producing professional client portfolios.
+A reusable, dependency-free starter for producing professional client portfolios.
 
 ## Purpose
 
 This repository is the approved First Measure baseline for client portfolio sites. It is intentionally neutral: it provides a Modern Studio visual system and adaptable portfolio structure without client content, First Measure sales messaging, pricing, or external service links.
 
-Create a separate repository for every client. Client repositories are independent productions; this repository remains the private master baseline.
+Create a separate private repository for every client. Client repositories are independent productions; this repository remains the master baseline and must not contain client-specific or confidential material.
+
+## Standards and instruction hierarchy
+
+Every client production must follow the [First Measure Portfolio Standards](PORTFOLIO-STANDARDS.md). Apply repository guidance in this order:
+
+1. `PORTFOLIO-STANDARDS.md` — product quality, content, evidence, experience, and approval requirements
+2. `portfolio-starter-IMPLEMENTATION-RULES.md` — high-priority design-independence requirements
+3. `AGENTS.md` — implementation workflow, technical constraints, and definition of done
+4. `QA-REVIEW.md` — report-only pre-approval review protocol
+
+The standards define outcomes without forcing every profession or client into the same structure.
 
 ## Structure
 
@@ -37,14 +48,16 @@ Sections may be added, removed, reordered, or adapted when the approved portfoli
 
 ## Client production workflow
 
-1. Start from this approved repository.
+1. Start from this approved repository and read `PORTFOLIO-STANDARDS.md`, `portfolio-starter-IMPLEMENTATION-RULES.md`, and `AGENTS.md`.
 2. Create a new, separate private repository for the client.
-3. Replace every bracketed placeholder in `index.html`.
-4. Update the HTML language, title, description, contact routes, and résumé/CV destination.
-5. Add only client-approved public assets to the client repository.
-6. Review navigation, links, desktop layout, mobile layout, keyboard interaction, and content accuracy.
-7. Obtain client approval before deployment.
-8. Deploy the client repository through the selected hosting workflow.
+3. Establish and obtain approval for a direction based on the client's profession, audience, personality, approved content, and strongest evidence.
+4. Adapt, add, remove, or reorder sections so the portfolio adds value beyond the résumé and supports progressive depth.
+5. Replace every bracketed placeholder in `index.html`.
+6. Update the HTML language, title, description, contact routes, and résumé/CV destination.
+7. Add only client-approved public assets and clearly identify any illustrative or reconstructed demonstrations.
+8. Run `npm run validate`, then complete the report-only review in `QA-REVIEW.md`.
+9. Obtain client approval before deployment.
+10. Deploy the client repository through the selected hosting workflow.
 
 ## Accessibility and responsive baseline
 
@@ -66,7 +79,7 @@ npm run validate
 
 `npm run validate` checks HTML structure, local links and assets, browser errors, automated accessibility, navigation behavior, smoke behavior, and horizontal overflow at widths 1440, 1024, 768, 430, 390, and 360 pixels.
 
-The automated gate does not approve portfolio strategy, content, evidence, confidentiality, or visual design. Before client approval or deployment, use the report-only process in [`QA-REVIEW.md`](QA-REVIEW.md), then complete human review. Repository-wide implementation guidance is in [`AGENTS.md`](AGENTS.md).
+The automated gate does not approve portfolio strategy, content, evidence, confidentiality, or visual design. Before client approval or deployment, evaluate the work against [`PORTFOLIO-STANDARDS.md`](PORTFOLIO-STANDARDS.md), use the report-only process in [`QA-REVIEW.md`](QA-REVIEW.md), and complete human review. Repository-wide implementation guidance is in [`AGENTS.md`](AGENTS.md).
 
 ## Rules
 
@@ -79,7 +92,7 @@ The automated gate does not approve portfolio strategy, content, evidence, confi
 
 ## Design direction
 
-The starter preserves the approved Modern Studio direction: editorial serif display typography, warm paper surfaces, deep navy contrast sections, terracotta accents, fine rules, structured cards, and a calm, professional responsive layout.
+The starter demonstrates a neutral Modern Studio baseline: editorial serif display typography, warm paper surfaces, deep navy contrast sections, terracotta accents, fine rules, structured cards, and a calm responsive layout. This is scaffolding, not the approved visual direction for every client; each production must establish its own approved, profession-appropriate identity.
 
 
 ## Design independence
