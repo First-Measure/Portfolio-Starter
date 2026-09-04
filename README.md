@@ -54,6 +54,20 @@ Sections may be added, removed, reordered, or adapted when the approved portfoli
 - Visible keyboard focus styles and reduced-motion support are included.
 - Layouts collapse progressively at 1000px, 680px, and 400px.
 
+## Development validation
+
+Use Node.js 20 or newer. After installing dependencies, install Playwright's Chromium browser once and run the single quality gate:
+
+```sh
+npm install
+npx playwright install chromium
+npm run validate
+```
+
+`npm run validate` checks HTML structure, local links and assets, browser errors, automated accessibility, navigation behavior, smoke behavior, and horizontal overflow at widths 1440, 1024, 768, 430, 390, and 360 pixels.
+
+The automated gate does not approve portfolio strategy, content, evidence, confidentiality, or visual design. Before client approval or deployment, use the report-only process in [`QA-REVIEW.md`](QA-REVIEW.md), then complete human review. Repository-wide implementation guidance is in [`AGENTS.md`](AGENTS.md).
+
 ## Rules
 
 - Do not store client résumés, intake exports, private documents, or confidential materials in this master repository.

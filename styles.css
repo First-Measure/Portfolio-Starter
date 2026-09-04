@@ -2,9 +2,9 @@
   --paper: #F4F1EA;
   --paper-dark: #E7E0D4;
   --ink: #111A23;
-  --muted: #64707A;
+  --muted: #59636C;
   --line: #CFC7BB;
-  --accent: #C36E4E;
+  --accent: #913F27;
   --accent-soft: #EAD6CC;
   --navy: #14283A;
   --max: 1180px;
@@ -134,6 +134,14 @@ h2 em {
   color: var(--accent);
   font-style: italic;
 }
+.hero .hero-number,
+.hero .hero-note span,
+.hero .kicker,
+.hero h1 em,
+.principles .section-meta span:first-child,
+.principles h2 em {
+  color: #DC8E72;
+}
 h2 {
   margin: 0;
   font-size: clamp(2.9rem, 5vw, 5.5rem);
@@ -163,7 +171,7 @@ h2 {
   background: var(--accent);
   color: #fff;
 }
-.button:hover { background: #AA5F43; }
+.button:hover { background: #873C25; }
 .text-link {
   display: inline-block;
   padding-bottom: 4px;
