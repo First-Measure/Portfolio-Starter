@@ -1,5 +1,8 @@
 # Client Portfolio — Implementation Rules
 
+These high-priority design-independence rules implement the individuality and profession-fit requirements in `PORTFOLIO-STANDARDS.md`. Apply both documents. Where this file is more specific about visual independence, follow this file without weakening the broader product, evidence, usability, or approval standards.
+
+
 ## Design independence — high priority
 
 This portfolio may be produced by First Measure, but it must not look like the First Measure business website or like a recolored First Measure template.
