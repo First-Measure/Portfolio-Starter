@@ -6,6 +6,27 @@ Treat approved content and design direction as intentional unless there is evide
 
 ## Review areas
 
+Apply the product-quality requirements in `PORTFOLIO-STANDARDS.md` throughout this review.
+
+### Recruiter scanability and progressive depth
+
+Test the opening experience as a rapid scan. Within approximately 10 seconds, a reviewer should be able to identify who the professional is, what they do, what makes them relevant or distinctive, and which evidence is most worth exploring.
+
+Then test a focused review of approximately two minutes. The strongest work should be meaningfully evaluable without requiring the viewer to read every paragraph or traverse unnecessary sections. Confirm that deeper material remains available through appropriate progressive disclosure rather than becoming unavoidable.
+
+### Value beyond the résumé and profession fit
+
+Confirm that the portfolio adds professional narrative, context, work evidence, process explanation, demonstrations, or other useful depth beyond reproducing résumé content. Evaluate whether its information design, visual language, section emphasis, and evidence presentation reinforce the individual's actual profession, audience, personality, and approved direction.
+
+Do not require every possible section. Flag sections that exist only because they are present in the starter and do not contribute to the professional story.
+
+### Capability demonstration, case studies, and illustrative material
+
+Prefer tangible demonstrations of supported capability over unsupported or repetitive capability lists. Evaluate case studies against the evidence available for context, problem or opportunity, individual role, constraints, approach, important decisions, work performed, deliverables, outcome or impact, and lessons. Missing categories are acceptable when the evidence does not exist.
+
+Confirm that conceptual interfaces, sample workflows, diagrams, reconstructions, and other illustrative materials are clearly identified and cannot reasonably be mistaken for completed client work, measured outcomes, or professional history. Treat ambiguous labeling as a content-evidence issue.
+
+
 ### Responsive layout
 
 Check horizontal overflow, clipping, overlap, unintended wrapping, restrictive heights, grid and flex behavior, incomplete rows, gutters, shared alignment, whitespace, natural panel expansion, section transitions, fixed-header anchors, navigation, mobile-menu behavior, long content, media and code overflow, footer links, and touch targets. Distinguish natural content-driven height differences from defects.
@@ -43,7 +64,7 @@ Look for intended content or behavior that may have been removed, overridden, hi
 For every substantiated finding, provide:
 
 - **Severity:** Critical / High / Medium / Low
-- **Classification:** Technical Defect / Responsive Defect / Accessibility / Content-Evidence / Possible Regression / Design Judgment
+- **Classification:** Technical Defect / Responsive Defect / Accessibility / Portfolio Strategy / Content-Evidence / Possible Regression / Design Judgment
 - **Location:** Page, section, component, selector, file, or code location
 - **Viewport:** Affected viewport(s), when applicable
 - **Observed:** What actually happens
@@ -52,14 +73,30 @@ For every substantiated finding, provide:
 
 Do not manufacture findings. State when an area was tested and no issue was substantiated.
 
+## Final quality threshold
+
+Before assigning a final status, answer:
+
+- Does the portfolio clearly communicate who this person is professionally?
+- Does it demonstrate rather than merely list capability where practical?
+- Does it feel individually designed and appropriate to the profession?
+- Does it remain faithful to approved evidence and clearly identify illustrative material?
+- Does it provide meaningful value beyond the résumé?
+- Does it work intentionally on desktop, tablet, and mobile?
+- Does it look and behave like a finished professional product?
+- Would the individual be comfortable sending it directly to the intended recruiter, hiring manager, professional contact, or prospective client?
+
+Any “no” answer must appear in the report as a substantiated finding or an explicit human decision still required.
+
 ## Final report structure
 
 A. Technical defects requiring correction
 B. Responsive/mobile issues
 C. Accessibility issues
-D. Content/evidence gaps or possible regressions
-E. Design/visual judgments requiring human decision
-F. Items tested with no substantiated issue
+D. Portfolio strategy, scanability, or progressive-depth issues
+E. Content/evidence gaps, illustrative-content ambiguity, or possible regressions
+F. Design/visual judgments requiring human decision
+G. Items tested with no substantiated issue
 
 Finish with one status:
 
